@@ -40,3 +40,9 @@ ktor {
         jreVersion.set(JavaVersion.VERSION_21)
     }
 }
+
+jib {
+    from {
+        image = "openjdk:21-jdk-slim"
+    }
+}
